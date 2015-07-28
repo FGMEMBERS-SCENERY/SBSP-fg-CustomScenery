@@ -1,0 +1,13 @@
+Instalação:
+
+1º-Faça um backup dos seus arquivos originais da pasta (Models e scenery).
+
+2º-Abra a pasta Models e copie todas as pastas para a --Models-- do jogo({Models}-fora ou dentro de data), substituindo todos os models pedidos.
+
+3º-Copie a pasta --scenery-- e cole no destino que seu jogo usa({scenery}-fora ou dentro de data), substituindo pelo existente.
+
+4º- Pronto, Seu Aeroporto de Congonhas(SBSP) está instalado, agora é só se devertir.
+
+GrupoFGBR deseja a todos bons vôos.
+
+Forte abraço.

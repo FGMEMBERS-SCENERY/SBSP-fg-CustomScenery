@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	<path>Vasp_hangar.ac</path>
+	
+	<nasal>
+  <load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "Vasp")) scenery["Vasp"] = {};
+   if (!contains(scenery.Vasp, "hangar")) scenery.Vasp["hangar"] = [nil];
+   scenery.Vasp.hangar[0] =
+     { door :
+       [aircraft.door.new("/scenery/Vasp/hangar[0]/door[0]", 60)
+       ]
+     };
+  </load>
+ </nasal>
+
+<animation>
+ <type>range</type>
+ <min-m>0</min-m>
+ <max-m>25000</max-m>
+</animation>
+
+<animation>
+ <type>rotate</type>
+ <object-name>door_sup_hangar</object-name>
+ <object-name>door_inf_hangar</object-name>
+ <property>/scenery/Vasp/hangar[0]/door[0]/position-norm</property>
+ <interpolation>
+		<entry>
+			<ind>0.0</ind>
+			<dep>0</dep>
+		</entry>
+		<entry>
+			<ind>0.15</ind>
+			<dep>90</dep>
+		</entry>
+		<entry>
+			<ind>0.65</ind>
+			<dep>90</dep>
+		</entry>
+		<entry>
+			<ind>1.0</ind>
+			<dep>0</dep>
+		</entry>
+	</interpolation>
+	<axis>
+		<x1-m>-27.388</x1-m>
+		<y1-m>30.0654</y1-m>
+		<z1-m>4.61915</z1-m>
+		<x2-m>-27.388</x2-m>
+		<y2-m>31.7404</y2-m>
+		<z2-m>4.61915</z2-m>
+	</axis>
+</animation>
+
+<animation>
+ <type>pick</type>
+ <object-name>door_sup_hangar</object-name>
+ <visible>true</visible>
+ <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+   <command>nasal</command>
+   <script>scenery.Vasp.hangar[0].door[0].toggle();</script>
+  </binding>
+ </action>
+</animation>
+
+<animation>
+ <type>rotate</type>
+ <object-name>door_inf_hangar</object-name>
+ <property>/scenery/Vasp/hangar[0]/door[0]/position-norm</property>
+ <interpolation>
+		<entry>
+			<ind>0.0</ind>
+			<dep>0</dep>
+		</entry>
+		<entry>
+			<ind>0.15</ind>
+			<dep>-180</dep>
+		</entry>
+		<entry>
+			<ind>0.65</ind>
+			<dep>-180</dep>
+		</entry>
+		<entry>
+			<ind>1.0</ind>
+			<dep>0</dep>
+		</entry>
+	</interpolation>
+	<axis>
+		<x1-m>-27.388</x1-m>
+		<y1-m>30.0654</y1-m>
+		<z1-m>-4.61915</z1-m>
+		<x2-m>-27.388</x2-m>
+		<y2-m>31.7404</y2-m>
+		<z2-m>-4.61915</z2-m>
+	</axis>
+</animation>
+
+<animation>
+ <type>pick</type>
+ <object-name>door_inf_hangar</object-name>
+ <visible>true</visible>
+ <action>
+  <name>click</name>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+   <command>nasal</command>
+   <script>scenery.Vasp.hangar[0].door[0].toggle();</script>
+  </binding>
+ </action>
+</animation>
+
+</PropertyList>

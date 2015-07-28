@@ -1,0 +1,29 @@
+<< O FlightGear Brasil o trabalho em grupo para desenvolver novas aeronaves, aeroportos e melhorias cenário para o simulador de vôo FlightGear. Todo o trabalho desenvolvido está sob licença GNU-GPL, a versão 2.0 ou superior, mantendo o espírito de FlightGear opensource e liberdade.>>
+
+
+---- O grupo FGBR esta orgulhoso de entregar o Aeroporto de Congonhas (SBSP).Um excelente trabalho com o objetivo de melhorar ainda mas as opções de vôo neste simulador, este é apenas um de muitos outros aeroportos e bases que seram entregues do zero (modelagem única), esperamos que vcs gostem e aproveitem ao máximo.----
+
+Um forte abraço a todos e bons vôos.
+
+www.grupofgbr.com.br
+
+FGBR
+Membros em 19/02/2012
+
+Aurino das Neves - BR-NVS
+Carlos Glória - BR-GLO
+George Luis - PR-GEO
+Hugo Michel Maia - Michel
+Isaias Prestes - PR-PRE
+Rick Britto - BR-RIC
+Wagner Silva - BR-WAG
+
+---------------------------------------------------------------------------
+(Inglês)
+
+<< The FlightGear Brazil group work to develop new aircrafts, airports and scenery improvements for the FlightGear flight simulator. All developed work is under GNU-GPL license, version 2.0 or later, keeping the FlightGear spirit of opensource and freedom.>>
+
+----The group (FGBrazil) is proud to deliver Congonhas Airport (SBSP).
+An excellent work with the aim of improving the options this  flight simulator. this is just one of many other airports and bases that Will be delivered to zero (model only), we hope you guys like and enjoy to the fullest.----
+
+Good flight all.
